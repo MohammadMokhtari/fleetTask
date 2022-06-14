@@ -2,3 +2,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("./assets/fonts/iran_sans_light.ttf");
+  }
+
+*{
+    font-family: IRANSans;
+    font-size: 13px;
+}
